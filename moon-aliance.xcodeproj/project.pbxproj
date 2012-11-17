@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79CD706116576F8700D8A480 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706016576F8700D8A480 /* UIKit.framework */; };
+		79CD706316576F8700D8A480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706216576F8700D8A480 /* Foundation.framework */; };
+		79CD706516576F8700D8A480 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706416576F8700D8A480 /* CoreGraphics.framework */; };
+		79CD706716576F8700D8A480 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706616576F8700D8A480 /* CoreData.framework */; };
+		79CD706D16576F8700D8A480 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79CD706B16576F8700D8A480 /* InfoPlist.strings */; };
+		79CD706F16576F8700D8A480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD706E16576F8700D8A480 /* main.m */; };
+		79CD707316576F8700D8A480 /* MAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD707216576F8700D8A480 /* MAAppDelegate.m */; };
+		79CD707516576F8700D8A480 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD707416576F8700D8A480 /* Default.png */; };
+		79CD707716576F8700D8A480 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD707616576F8700D8A480 /* Default@2x.png */; };
+		79CD707916576F8700D8A480 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CD707816576F8700D8A480 /* Default-568h@2x.png */; };
+		79CD707C16576F8700D8A480 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CD707A16576F8700D8A480 /* MainStoryboard.storyboard */; };
+		79CD707F16576F8700D8A480 /* moon_aliance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79CD707D16576F8700D8A480 /* moon_aliance.xcdatamodeld */; };
+		79CD708216576F8700D8A480 /* MAMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD708116576F8700D8A480 /* MAMasterViewController.m */; };
+		79CD708516576F8700D8A480 /* MADetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD708416576F8700D8A480 /* MADetailViewController.m */; };
+		79CD708D16576F8800D8A480 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD708C16576F8800D8A480 /* SenTestingKit.framework */; };
+		79CD708E16576F8800D8A480 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706016576F8700D8A480 /* UIKit.framework */; };
+		79CD708F16576F8800D8A480 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706216576F8700D8A480 /* Foundation.framework */; };
+		79CD709016576F8800D8A480 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD706616576F8700D8A480 /* CoreData.framework */; };
+		79CD709816576F8800D8A480 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79CD709616576F8800D8A480 /* InfoPlist.strings */; };
+		79CD709B16576F8800D8A480 /* moon_alianceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CD709A16576F8800D8A480 /* moon_alianceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79CD709116576F8800D8A480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79CD705316576F8700D8A480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79CD705B16576F8700D8A480;
+			remoteInfo = "moon-aliance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79CD705C16576F8700D8A480 /* moon-aliance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moon-aliance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CD706016576F8700D8A480 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79CD706216576F8700D8A480 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79CD706416576F8700D8A480 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79CD706616576F8700D8A480 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79CD706A16576F8700D8A480 /* moon-aliance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moon-aliance-Info.plist"; sourceTree = "<group>"; };
+		79CD706C16576F8700D8A480 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79CD706E16576F8700D8A480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79CD707016576F8700D8A480 /* moon-aliance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "moon-aliance-Prefix.pch"; sourceTree = "<group>"; };
+		79CD707116576F8700D8A480 /* MAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAAppDelegate.h; sourceTree = "<group>"; };
+		79CD707216576F8700D8A480 /* MAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAppDelegate.m; sourceTree = "<group>"; };
+		79CD707416576F8700D8A480 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		79CD707616576F8700D8A480 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		79CD707816576F8700D8A480 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		79CD707B16576F8700D8A480 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		79CD707E16576F8700D8A480 /* moon_aliance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moon_aliance.xcdatamodel; sourceTree = "<group>"; };
+		79CD708016576F8700D8A480 /* MAMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAMasterViewController.h; sourceTree = "<group>"; };
+		79CD708116576F8700D8A480 /* MAMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAMasterViewController.m; sourceTree = "<group>"; };
+		79CD708316576F8700D8A480 /* MADetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADetailViewController.h; sourceTree = "<group>"; };
+		79CD708416576F8700D8A480 /* MADetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADetailViewController.m; sourceTree = "<group>"; };
+		79CD708B16576F8800D8A480 /* moon-alianceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moon-alianceTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79CD708C16576F8800D8A480 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79CD709516576F8800D8A480 /* moon-alianceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "moon-alianceTests-Info.plist"; sourceTree = "<group>"; };
+		79CD709716576F8800D8A480 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79CD709916576F8800D8A480 /* moon_alianceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = moon_alianceTests.h; sourceTree = "<group>"; };
+		79CD709A16576F8800D8A480 /* moon_alianceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = moon_alianceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79CD705916576F8700D8A480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD706116576F8700D8A480 /* UIKit.framework in Frameworks */,
+				79CD706316576F8700D8A480 /* Foundation.framework in Frameworks */,
+				79CD706516576F8700D8A480 /* CoreGraphics.framework in Frameworks */,
+				79CD706716576F8700D8A480 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CD708716576F8800D8A480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD708D16576F8800D8A480 /* SenTestingKit.framework in Frameworks */,
+				79CD708E16576F8800D8A480 /* UIKit.framework in Frameworks */,
+				79CD708F16576F8800D8A480 /* Foundation.framework in Frameworks */,
+				79CD709016576F8800D8A480 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79CD705116576F8700D8A480 = {
+			isa = PBXGroup;
+			children = (
+				79CD706816576F8700D8A480 /* moon-aliance */,
+				79CD709316576F8800D8A480 /* moon-alianceTests */,
+				79CD705F16576F8700D8A480 /* Frameworks */,
+				79CD705D16576F8700D8A480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79CD705D16576F8700D8A480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79CD705C16576F8700D8A480 /* moon-aliance.app */,
+				79CD708B16576F8800D8A480 /* moon-alianceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79CD705F16576F8700D8A480 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79CD706016576F8700D8A480 /* UIKit.framework */,
+				79CD706216576F8700D8A480 /* Foundation.framework */,
+				79CD706416576F8700D8A480 /* CoreGraphics.framework */,
+				79CD706616576F8700D8A480 /* CoreData.framework */,
+				79CD708C16576F8800D8A480 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79CD706816576F8700D8A480 /* moon-aliance */ = {
+			isa = PBXGroup;
+			children = (
+				79CD707116576F8700D8A480 /* MAAppDelegate.h */,
+				79CD707216576F8700D8A480 /* MAAppDelegate.m */,
+				79CD707A16576F8700D8A480 /* MainStoryboard.storyboard */,
+				79CD708016576F8700D8A480 /* MAMasterViewController.h */,
+				79CD708116576F8700D8A480 /* MAMasterViewController.m */,
+				79CD708316576F8700D8A480 /* MADetailViewController.h */,
+				79CD708416576F8700D8A480 /* MADetailViewController.m */,
+				79CD707D16576F8700D8A480 /* moon_aliance.xcdatamodeld */,
+				79CD706916576F8700D8A480 /* Supporting Files */,
+			);
+			path = "moon-aliance";
+			sourceTree = "<group>";
+		};
+		79CD706916576F8700D8A480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CD706A16576F8700D8A480 /* moon-aliance-Info.plist */,
+				79CD706B16576F8700D8A480 /* InfoPlist.strings */,
+				79CD706E16576F8700D8A480 /* main.m */,
+				79CD707016576F8700D8A480 /* moon-aliance-Prefix.pch */,
+				79CD707416576F8700D8A480 /* Default.png */,
+				79CD707616576F8700D8A480 /* Default@2x.png */,
+				79CD707816576F8700D8A480 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79CD709316576F8800D8A480 /* moon-alianceTests */ = {
+			isa = PBXGroup;
+			children = (
+				79CD709916576F8800D8A480 /* moon_alianceTests.h */,
+				79CD709A16576F8800D8A480 /* moon_alianceTests.m */,
+				79CD709416576F8800D8A480 /* Supporting Files */,
+			);
+			path = "moon-alianceTests";
+			sourceTree = "<group>";
+		};
+		79CD709416576F8800D8A480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79CD709516576F8800D8A480 /* moon-alianceTests-Info.plist */,
+				79CD709616576F8800D8A480 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79CD705B16576F8700D8A480 /* moon-aliance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CD709E16576F8800D8A480 /* Build configuration list for PBXNativeTarget "moon-aliance" */;
+			buildPhases = (
+				79CD705816576F8700D8A480 /* Sources */,
+				79CD705916576F8700D8A480 /* Frameworks */,
+				79CD705A16576F8700D8A480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "moon-aliance";
+			productName = "moon-aliance";
+			productReference = 79CD705C16576F8700D8A480 /* moon-aliance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79CD708A16576F8800D8A480 /* moon-alianceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79CD70A116576F8800D8A480 /* Build configuration list for PBXNativeTarget "moon-alianceTests" */;
+			buildPhases = (
+				79CD708616576F8800D8A480 /* Sources */,
+				79CD708716576F8800D8A480 /* Frameworks */,
+				79CD708816576F8800D8A480 /* Resources */,
+				79CD708916576F8800D8A480 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79CD709216576F8800D8A480 /* PBXTargetDependency */,
+			);
+			name = "moon-alianceTests";
+			productName = "moon-alianceTests";
+			productReference = 79CD708B16576F8800D8A480 /* moon-alianceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79CD705316576F8700D8A480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "University of Waterloo";
+			};
+			buildConfigurationList = 79CD705616576F8700D8A480 /* Build configuration list for PBXProject "moon-aliance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79CD705116576F8700D8A480;
+			productRefGroup = 79CD705D16576F8700D8A480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79CD705B16576F8700D8A480 /* moon-aliance */,
+				79CD708A16576F8800D8A480 /* moon-alianceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79CD705A16576F8700D8A480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD706D16576F8700D8A480 /* InfoPlist.strings in Resources */,
+				79CD707516576F8700D8A480 /* Default.png in Resources */,
+				79CD707716576F8700D8A480 /* Default@2x.png in Resources */,
+				79CD707916576F8700D8A480 /* Default-568h@2x.png in Resources */,
+				79CD707C16576F8700D8A480 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CD708816576F8800D8A480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD709816576F8800D8A480 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79CD708916576F8800D8A480 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79CD705816576F8700D8A480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD706F16576F8700D8A480 /* main.m in Sources */,
+				79CD707316576F8700D8A480 /* MAAppDelegate.m in Sources */,
+				79CD707F16576F8700D8A480 /* moon_aliance.xcdatamodeld in Sources */,
+				79CD708216576F8700D8A480 /* MAMasterViewController.m in Sources */,
+				79CD708516576F8700D8A480 /* MADetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79CD708616576F8800D8A480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CD709B16576F8800D8A480 /* moon_alianceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79CD709216576F8800D8A480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79CD705B16576F8700D8A480 /* moon-aliance */;
+			targetProxy = 79CD709116576F8800D8A480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79CD706B16576F8700D8A480 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CD706C16576F8700D8A480 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79CD707A16576F8700D8A480 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CD707B16576F8700D8A480 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		79CD709616576F8800D8A480 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79CD709716576F8800D8A480 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79CD709C16576F8800D8A480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79CD709D16576F8800D8A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79CD709F16576F8800D8A480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moon-aliance/moon-aliance-Prefix.pch";
+				INFOPLIST_FILE = "moon-aliance/moon-aliance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79CD70A016576F8800D8A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moon-aliance/moon-aliance-Prefix.pch";
+				INFOPLIST_FILE = "moon-aliance/moon-aliance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79CD70A216576F8800D8A480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moon-aliance.app/moon-aliance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moon-aliance/moon-aliance-Prefix.pch";
+				INFOPLIST_FILE = "moon-alianceTests/moon-alianceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79CD70A316576F8800D8A480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/moon-aliance.app/moon-aliance";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "moon-aliance/moon-aliance-Prefix.pch";
+				INFOPLIST_FILE = "moon-alianceTests/moon-alianceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79CD705616576F8700D8A480 /* Build configuration list for PBXProject "moon-aliance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CD709C16576F8800D8A480 /* Debug */,
+				79CD709D16576F8800D8A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79CD709E16576F8800D8A480 /* Build configuration list for PBXNativeTarget "moon-aliance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CD709F16576F8800D8A480 /* Debug */,
+				79CD70A016576F8800D8A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79CD70A116576F8800D8A480 /* Build configuration list for PBXNativeTarget "moon-alianceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79CD70A216576F8800D8A480 /* Debug */,
+				79CD70A316576F8800D8A480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79CD707D16576F8700D8A480 /* moon_aliance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79CD707E16576F8700D8A480 /* moon_aliance.xcdatamodel */,
+			);
+			currentVersion = 79CD707E16576F8700D8A480 /* moon_aliance.xcdatamodel */;
+			path = moon_aliance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79CD705316576F8700D8A480 /* Project object */;
+}
